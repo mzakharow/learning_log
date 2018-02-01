@@ -12,4 +12,7 @@ urlpatterns = [
 
     #single
     url(r'^topics/(?P<topic_id>\d+)/$', views.topic, name='topic'),
+
+    #page for newtopic
+    url(r'^new_topic/$', views.new_topic, name='new_topic'),
 ]
